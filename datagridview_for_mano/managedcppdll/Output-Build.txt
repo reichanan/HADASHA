@@ -1,0 +1,56 @@
+﻿1>------ Build started: Project: DialogBox, Configuration: Debug Any CPU ------
+1>Build started 27/02/2012 01:23:36.
+1>CopyFilesToOutputDirectory:
+1>  DialogBox -> C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\DialogBox\bin\Debug\DialogBox.dll
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.01
+2>------ Build started: Project: cppdll, Configuration: Debug Win32 ------
+2>Build started 27/02/2012 01:23:36.
+2>InitializeBuildStatus:
+2>  Touching "Debug\cppdll.unsuccessfulbuild".
+2>cl : Command line warning D9035: option 'clr:oldsyntax' has been deprecated and will be removed in a future release
+2>  operatetowerdll.cpp
+2>LinkEmbedManifest:
+2>  cppdll.vcxproj -> C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\Debug\cppdll.dll
+2>FinalizeBuildStatus:
+2>  Deleting file "Debug\cppdll.unsuccessfulbuild".
+2>  Touching "Debug\cppdll.lastbuildstate".
+2>
+2>Build succeeded.
+2>
+2>Time Elapsed 00:00:02.40
+3>------ Build started: Project: datagridview, Configuration: Debug Any CPU ------
+C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\Main.cs(929,53): warning CS0642: Possible mistaken empty statement
+C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\Example.cs(16,17): warning CS0219: The variable 'subrc' is assigned but its value is never used
+C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\loginForm.cs(45,34): warning CS0168: The variable 'Ex' is declared but never used
+C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\orderItemsForm.cs(363,17): warning CS0219: The variable 'nextTray' is assigned but its value is never used
+C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\checktower.cs(17,35): warning CS0626: Method, operator, or accessor 'datagridview.checktower.Read(int, string)' is marked external and has no attributes on it. Consider adding a DllImport attribute to specify the external implementation.
+C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\Main.cs(51,21): warning CS0169: The field 'datagridview.Main.mDialogCount' is never used
+
+Compile complete -- 0 errors, 6 warnings
+3>Build started 27/02/2012 01:23:39.
+3>CoreResGen:
+3>  All outputs are up-to-date.
+3>GenerateTargetFrameworkMonikerAttribute:
+3>Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+3>CoreCompile:
+3>  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:DEBUG;TRACE /reference:C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\Debug\cppdll.dll /reference:C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\DialogBox\bin\Debug\DialogBox.dll /link:"C:\Program Files\Microsoft Visual Studio 10.0\Visual Studio Tools for Office\PIA\Office14\Microsoft.Office.Interop.Excel.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.DataSetExtensions.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Deployment.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Runtime.Serialization.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.ServiceModel.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.Linq.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\datagridview.exe /resource:obj\Debug\datagridview.AboutBox1.resources /resource:obj\Debug\datagridview.checktower.resources /resource:obj\Debug\datagridview.insertsupply.resources /resource:obj\Debug\datagridview.Form1.resources /resource:obj\Debug\datagridview.loginForm.resources /resource:obj\Debug\datagridview.Main.resources /resource:obj\Debug\datagridview.orderItemsForm.resources /resource:obj\Debug\datagridview.proceedOrder.resources /resource:obj\Debug\datagridview.Properties.Resources.resources /target:winexe AboutBox1.cs AboutBox1.Designer.cs checktower.cs checktower.Designer.cs errorvalue.cs insertsupply.cs insertsupply.Designer.cs NumericTextBox.cs Example.cs Form1.cs Form1.Designer.cs loginForm.cs loginForm.Designer.cs Main.cs Main.Designer.cs order.cs orderItemsForm.cs orderItemsForm.Designer.cs proceedOrder.cs proceedOrder.Designer.cs Program.cs Properties\AssemblyInfo.cs "Service References\TranstecWS\Reference.cs" Properties\Resources.Designer.cs Properties\Settings.Designer.cs "C:\Users\hananr\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cs"
+3>GenerateSatelliteAssemblies:
+3>  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\AL.exe /culture:he-IL /out:obj\Debug\he-IL\datagridview.resources.dll /template:obj\Debug\datagridview.exe /embed:obj\Debug\datagridview.Form1.he-IL.resources
+3>_CopyFilesMarkedCopyLocal:
+3>  Copying file from "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\Debug\cppdll.dll" to "bin\Debug\cppdll.dll".
+3>  Copying file from "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\Debug\cppdll.pdb" to "bin\Debug\cppdll.pdb".
+3>_CopyAppConfigFile:
+3>Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+3>CopyFilesToOutputDirectory:
+3>  Copying file from "obj\Debug\datagridview.exe" to "bin\Debug\datagridview.exe".
+3>  datagridview -> C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\bin\Debug\datagridview.exe
+3>  Copying file from "obj\Debug\datagridview.pdb" to "bin\Debug\datagridview.pdb".
+3>  Copying file from "obj\Debug\he-IL\datagridview.resources.dll" to "bin\Debug\he-IL\datagridview.resources.dll".
+3>
+3>Build succeeded.
+3>
+3>Time Elapsed 00:00:00.84
+========== Build: 3 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

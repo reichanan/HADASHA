@@ -1,0 +1,115 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 15.00.21022.08 (fc111a27).
+//
+// c:\project\mission\mission\debug\olemission.tlh
+//
+// C++ source equivalent of Win32 type library C:\win_ese5\olemission.exe
+// compiler-generated file created 02/10/12 at 21:07:46 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace olemission {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("68af1f3e-63a9-45af-b157-7acb43fb49f6"))
+/* LIBID */ __olemission;
+struct __declspec(uuid("65eb7c0d-182f-423b-8cbb-e881fc66b4b0"))
+/* dual interface */ Iclsmission;
+struct /* coclass */ clsmission;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(Iclsmission, __uuidof(Iclsmission));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("65eb7c0d-182f-423b-8cbb-e881fc66b4b0"))
+Iclsmission : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _variant_t create (
+        VARIANT * pUdc,
+        VARIANT * pTips,
+        VARIANT * pMacS,
+        VARIANT * pTipd,
+        VARIANT * pDen );
+    _variant_t read (
+        VARIANT * pUdc );
+    _variant_t initialize (
+        VARIANT * pFileIni );
+    _variant_t del (
+        VARIANT * pUdc );
+    _variant_t manuttab ( );
+    _variant_t zaptab ( );
+    _variant_t readnumber (
+        VARIANT * pUdc );
+    _variant_t dpick (
+        VARIANT * pMacc,
+        VARIANT * pGruppoBocche );
+    _variant_t delall (
+        VARIANT * pMac );
+    _variant_t checkconn ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_create (
+        /*[in,out]*/ VARIANT * pUdc,
+        /*[in,out]*/ VARIANT * pTips,
+        /*[in,out]*/ VARIANT * pMacS,
+        /*[in,out]*/ VARIANT * pTipd,
+        /*[in,out]*/ VARIANT * pDen,
+        /*[out,retval]*/ VARIANT * RetVal ) = 0;
+      virtual HRESULT __stdcall raw_read (
+        /*[in,out]*/ VARIANT * pUdc,
+        /*[out,retval]*/ VARIANT * RetVal ) = 0;
+      virtual HRESULT __stdcall raw_initialize (
+        /*[in,out]*/ VARIANT * pFileIni,
+        /*[out,retval]*/ VARIANT * RetVal ) = 0;
+      virtual HRESULT __stdcall raw_del (
+        /*[in,out]*/ VARIANT * pUdc,
+        /*[out,retval]*/ VARIANT * RetVal ) = 0;
+      virtual HRESULT __stdcall raw_manuttab (
+        /*[out,retval]*/ VARIANT * RetVal ) = 0;
+      virtual HRESULT __stdcall raw_zaptab (
+        /*[out,retval]*/ VARIANT * RetVal ) = 0;
+      virtual HRESULT __stdcall raw_readnumber (
+        /*[in,out]*/ VARIANT * pUdc,
+        /*[out,retval]*/ VARIANT * RetVal ) = 0;
+      virtual HRESULT __stdcall raw_dpick (
+        /*[in,out]*/ VARIANT * pMacc,
+        /*[in,out]*/ VARIANT * pGruppoBocche,
+        /*[out,retval]*/ VARIANT * RetVal ) = 0;
+      virtual HRESULT __stdcall raw_delall (
+        /*[in,out]*/ VARIANT * pMac,
+        /*[out,retval]*/ VARIANT * RetVal ) = 0;
+      virtual HRESULT __stdcall raw_checkconn (
+        /*[out,retval]*/ VARIANT * RetVal ) = 0;
+};
+
+struct __declspec(uuid("3fb679d3-ac5e-46ab-8186-37de79b0596e"))
+clsmission;
+    // [ default ] interface Iclsmission
+
+//
+// Wrapper method implementations
+//
+
+#include "olemission.tli"
+
+} // namespace olemission
+
+#pragma pack(pop)

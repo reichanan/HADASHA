@@ -1,0 +1,5 @@
+C:\hanan\datagridview_for_mano\datagridview_for_mano\ExceptionLogger\bin\Release\ExceptionLogger.dll
+C:\hanan\datagridview_for_mano\datagridview_for_mano\ExceptionLogger\bin\Release\ExceptionLogger.pdb
+C:\hanan\datagridview_for_mano\datagridview_for_mano\ExceptionLogger\obj\Release\ResolveAssemblyReference.cache
+C:\hanan\datagridview_for_mano\datagridview_for_mano\ExceptionLogger\obj\Release\ExceptionLogger.dll
+C:\hanan\datagridview_for_mano\datagridview_for_mano\ExceptionLogger\obj\Release\ExceptionLogger.pdb

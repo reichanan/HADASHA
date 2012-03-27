@@ -1,0 +1,12 @@
+C:\Users\hananr\Desktop\ExceptionLogger\bin\Debug\ExceptionLogger.XML
+C:\Users\hananr\Desktop\ExceptionLogger\bin\Debug\ExceptionLogger.dll
+C:\Users\hananr\Desktop\ExceptionLogger\bin\Debug\ExceptionLogger.pdb
+C:\Users\hananr\Desktop\ExceptionLogger\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\hananr\Desktop\ExceptionLogger\obj\Debug\ExceptionLogger.dll
+C:\Users\hananr\Desktop\ExceptionLogger\obj\Debug\ExceptionLogger.pdb
+C:\hanan\datagridview_for_mano\datagridview_for_mano\ExceptionLogger\bin\Debug\ExceptionLogger.dll
+C:\hanan\datagridview_for_mano\datagridview_for_mano\ExceptionLogger\bin\Debug\ExceptionLogger.pdb
+C:\hanan\datagridview_for_mano\datagridview_for_mano\ExceptionLogger\obj\Debug\ResolveAssemblyReference.cache
+C:\hanan\datagridview_for_mano\datagridview_for_mano\ExceptionLogger\obj\Debug\ExceptionLogger.dll
+C:\hanan\datagridview_for_mano\datagridview_for_mano\ExceptionLogger\obj\Debug\ExceptionLogger.pdb
+C:\hanan\datagridview_for_mano\datagridview_for_mano\ExceptionLogger\bin\Debug\ExceptionLogger.XML

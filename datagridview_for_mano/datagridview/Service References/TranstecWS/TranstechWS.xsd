@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/TranstechWS" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/TranstechWS" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="TranstechlTower">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="X" />
+      <xs:enumeration value="Y" />
+      <xs:enumeration value="Z" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="TranstechlTower" nillable="true" type="tns:TranstechlTower" />
+  <xs:simpleType name="TranstechlFields">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="EBELN" />
+      <xs:enumeration value="EBELP" />
+      <xs:enumeration value="BSART" />
+      <xs:enumeration value="MATNR" />
+      <xs:enumeration value="MEINS" />
+      <xs:enumeration value="MSEHT" />
+      <xs:enumeration value="WGBEZ60" />
+      <xs:enumeration value="LGORT" />
+      <xs:enumeration value="MAKTX" />
+      <xs:enumeration value="LABST" />
+      <xs:enumeration value="LGOBE" />
+      <xs:enumeration value="MENGE" />
+      <xs:enumeration value="MENGE2" />
+      <xs:enumeration value="AEDAT" />
+      <xs:enumeration value="ERNAM" />
+      <xs:enumeration value="USERALIAS" />
+      <xs:enumeration value="NotSet" />
+      <xs:enumeration value="TOWER" />
+      <xs:enumeration value="TRAY" />
+      <xs:enumeration value="AXISX" />
+      <xs:enumeration value="AXISY" />
+      <xs:enumeration value="UNSEZ" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="TranstechlFields" nillable="true" type="tns:TranstechlFields" />
+  <xs:complexType name="ArrayOfV_HEADER_PO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="V_HEADER_PO" nillable="true" type="tns:V_HEADER_PO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfV_HEADER_PO" nillable="true" type="tns:ArrayOfV_HEADER_PO" />
+  <xs:complexType name="V_HEADER_PO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AEDAT" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="BSART" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EBELN" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ERNAM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LGOBE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LGORT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NUMBER" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TOWER" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="USERALIAS" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="V_HEADER_PO" nillable="true" type="tns:V_HEADER_PO" />
+  <xs:complexType name="ArrayOfV_PO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="V_PO" nillable="true" type="tns:V_PO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfV_PO" nillable="true" type="tns:ArrayOfV_PO" />
+  <xs:complexType name="V_PO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AEDAT" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="AXISX" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AXISY" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BSART" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EBELN" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EBELP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ERNAM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LABST" type="xs:decimal" />
+      <xs:element minOccurs="0" name="LGOBE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LGORT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MAKTX" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MATNR" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MEINS" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MENGE" type="xs:decimal" />
+      <xs:element minOccurs="0" name="MENGE2" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TOWER" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TRAY" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="V_PO" nillable="true" type="tns:V_PO" />
+  <xs:complexType name="ArrayOfV_MIGO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="V_MIGO" nillable="true" type="tns:V_MIGO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfV_MIGO" nillable="true" type="tns:ArrayOfV_MIGO" />
+  <xs:complexType name="V_MIGO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ENTRY_QNT" type="xs:decimal" />
+      <xs:element minOccurs="0" name="MATERIAL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PLANT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PO_ITEM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PO_NUMBER" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="STGE_LOC" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="V_MIGO" nillable="true" type="tns:V_MIGO" />
+  <xs:complexType name="ArrayOfV_BAPIRETURN">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="V_BAPIRETURN" nillable="true" type="tns:V_BAPIRETURN" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfV_BAPIRETURN" nillable="true" type="tns:ArrayOfV_BAPIRETURN" />
+  <xs:complexType name="V_BAPIRETURN">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FIELD" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LOG_MSG_NO" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LOG_NO" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MESSAGE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MESSAGE_V1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MESSAGE_V2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MESSAGE_V3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MESSAGE_V4" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NUMBER" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PARAMETER" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ROW" type="xs:int" />
+      <xs:element minOccurs="0" name="TYPE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZSYSTEM" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="V_BAPIRETURN" nillable="true" type="tns:V_BAPIRETURN" />
+  <xs:complexType name="ArrayOfV_MATERIAL_IN">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="V_MATERIAL_IN" nillable="true" type="tns:V_MATERIAL_IN" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfV_MATERIAL_IN" nillable="true" type="tns:ArrayOfV_MATERIAL_IN" />
+  <xs:complexType name="V_MATERIAL_IN">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AXISX" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AXISY" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CPUDT" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LABST" type="xs:decimal" />
+      <xs:element minOccurs="0" name="MAKTX" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MATNR" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MBLNR" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MEINS" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MENGE" type="xs:decimal" />
+      <xs:element minOccurs="0" name="MJAHR" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TOWER" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TRAY" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZEILE" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="V_MATERIAL_IN" nillable="true" type="tns:V_MATERIAL_IN" />
+  <xs:complexType name="ArrayOfV_MATERIAL">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="V_MATERIAL" nillable="true" type="tns:V_MATERIAL" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfV_MATERIAL" nillable="true" type="tns:ArrayOfV_MATERIAL" />
+  <xs:complexType name="V_MATERIAL">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AXISX" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AXISY" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LGOBE" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LGORT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MAKTX" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MATKL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MATNR" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MEINS" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MSEHT" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TOWER" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TRAY" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WGBEZ60" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="V_MATERIAL" nillable="true" type="tns:V_MATERIAL" />
+</xs:schema>

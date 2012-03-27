@@ -1,0 +1,3 @@
+C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\DialogBox\bin\Release\DialogBox.dll
+C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\DialogBox\obj\Release\ResolveAssemblyReference.cache
+C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\DialogBox\obj\Release\DialogBox.dll

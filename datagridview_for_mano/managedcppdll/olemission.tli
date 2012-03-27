@@ -1,0 +1,92 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 15.00.21022.08 (fc111a27).
+//
+// c:\project\mission\mission\debug\olemission.tli
+//
+// Wrapper implementations for Win32 type library C:\win_ese5\olemission.exe
+// compiler-generated file created 02/10/12 at 21:07:46 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface Iclsmission wrapper method implementations
+//
+
+inline _variant_t Iclsmission::create ( VARIANT * pUdc, VARIANT * pTips, VARIANT * pMacS, VARIANT * pTipd, VARIANT * pDen ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_create(pUdc, pTips, pMacS, pTipd, pDen, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline _variant_t Iclsmission::read ( VARIANT * pUdc ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_read(pUdc, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline _variant_t Iclsmission::initialize ( VARIANT * pFileIni ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_initialize(pFileIni, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline _variant_t Iclsmission::del ( VARIANT * pUdc ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_del(pUdc, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline _variant_t Iclsmission::manuttab ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_manuttab(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline _variant_t Iclsmission::zaptab ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_zaptab(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline _variant_t Iclsmission::readnumber ( VARIANT * pUdc ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_readnumber(pUdc, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline _variant_t Iclsmission::dpick ( VARIANT * pMacc, VARIANT * pGruppoBocche ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_dpick(pMacc, pGruppoBocche, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline _variant_t Iclsmission::delall ( VARIANT * pMac ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_delall(pMac, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline _variant_t Iclsmission::checkconn ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_checkconn(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}

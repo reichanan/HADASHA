@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="" namespace="http://schemas.datacontract.org/2004/07/TranstechWS" />
+  <xs:element name="ZMM_TRANSTECH_GET_HEADER_PO">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/TranstechWS" minOccurs="0" name="Tower" type="q1:TranstechlTower" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/TranstechWS" minOccurs="0" name="FieldName" type="q2:TranstechlFields" />
+        <xs:element minOccurs="0" name="FieldValue" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="subrc" type="xs:int" />
+        <xs:element minOccurs="0" name="MessageReturn" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Client" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ZMM_TRANSTECH_GET_HEADER_POResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/TranstechWS" minOccurs="0" name="ZMM_TRANSTECH_GET_HEADER_POResult" nillable="true" type="q3:ArrayOfV_HEADER_PO" />
+        <xs:element minOccurs="0" name="subrc" type="xs:int" />
+        <xs:element minOccurs="0" name="MessageReturn" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ZMM_TRANSTECH_GET_PO">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/TranstechWS" minOccurs="0" name="Tower" type="q4:TranstechlTower" />
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/TranstechWS" minOccurs="0" name="FieldName" type="q5:TranstechlFields" />
+        <xs:element minOccurs="0" name="FieldValue" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="subrc" type="xs:int" />
+        <xs:element minOccurs="0" name="MessageReturn" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Client" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ZMM_TRANSTECH_GET_POResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/TranstechWS" minOccurs="0" name="ZMM_TRANSTECH_GET_POResult" nillable="true" type="q6:ArrayOfV_PO" />
+        <xs:element minOccurs="0" name="subrc" type="xs:int" />
+        <xs:element minOccurs="0" name="MessageReturn" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ZMM_TRANSTECH_MIGO">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/TranstechWS" minOccurs="0" name="Migo_items" nillable="true" type="q7:ArrayOfV_MIGO" />
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/TranstechWS" minOccurs="0" name="Bapi_results" nillable="true" type="q8:ArrayOfV_BAPIRETURN" />
+        <xs:element minOccurs="0" name="TestRun" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Pstng_date" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Doc_date" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Header_txt" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="subrc" type="xs:int" />
+        <xs:element minOccurs="0" name="MessageReturn" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Client" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ZMM_TRANSTECH_MIGOResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ZMM_TRANSTECH_MIGOResult" nillable="true" type="xs:string" />
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/TranstechWS" minOccurs="0" name="Bapi_results" nillable="true" type="q9:ArrayOfV_BAPIRETURN" />
+        <xs:element minOccurs="0" name="subrc" type="xs:int" />
+        <xs:element minOccurs="0" name="MessageReturn" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ZMM_TRANSTECH_MATERIAL_IN">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/TranstechWS" minOccurs="0" name="Tower" type="q10:TranstechlTower" />
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/TranstechWS" minOccurs="0" name="FieldName" type="q11:TranstechlFields" />
+        <xs:element minOccurs="0" name="FieldValue" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="subrc" type="xs:int" />
+        <xs:element minOccurs="0" name="MessageReturn" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Client" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ZMM_TRANSTECH_MATERIAL_INResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/TranstechWS" minOccurs="0" name="ZMM_TRANSTECH_MATERIAL_INResult" nillable="true" type="q12:ArrayOfV_MATERIAL_IN" />
+        <xs:element minOccurs="0" name="subrc" type="xs:int" />
+        <xs:element minOccurs="0" name="MessageReturn" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ZMM_TRANSTECH_MATERIAL_REPORT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/TranstechWS" minOccurs="0" name="FieldName" type="q13:TranstechlFields" />
+        <xs:element minOccurs="0" name="FieldValue" nillable="true" type="xs:string" />
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/TranstechWS" minOccurs="0" name="Material_report" nillable="true" type="q14:ArrayOfV_MATERIAL_IN" />
+        <xs:element minOccurs="0" name="subrc" type="xs:int" />
+        <xs:element minOccurs="0" name="MessageReturn" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Client" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ZMM_TRANSTECH_MATERIAL_REPORTResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/TranstechWS" minOccurs="0" name="ZMM_TRANSTECH_MATERIAL_REPORTResult" nillable="true" type="q15:ArrayOfV_BAPIRETURN" />
+        <xs:element minOccurs="0" name="subrc" type="xs:int" />
+        <xs:element minOccurs="0" name="MessageReturn" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ZMM_TRANSTECH_MATERIAL">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/TranstechWS" minOccurs="0" name="FieldName" type="q16:TranstechlFields" />
+        <xs:element minOccurs="0" name="FieldValue" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Storage_Bin_low" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Storage_Bin_high" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="subrc" type="xs:int" />
+        <xs:element minOccurs="0" name="MessageReturn" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Client" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ZMM_TRANSTECH_MATERIALResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/TranstechWS" minOccurs="0" name="ZMM_TRANSTECH_MATERIALResult" nillable="true" type="q17:ArrayOfV_MATERIAL" />
+        <xs:element minOccurs="0" name="subrc" type="xs:int" />
+        <xs:element minOccurs="0" name="MessageReturn" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ZMM_TRANSTECH_AUTHENTICATION">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MessageReturn" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Client" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ZMM_TRANSTECH_AUTHENTICATIONResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ZMM_TRANSTECH_AUTHENTICATIONResult" type="xs:boolean" />
+        <xs:element minOccurs="0" name="MessageReturn" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

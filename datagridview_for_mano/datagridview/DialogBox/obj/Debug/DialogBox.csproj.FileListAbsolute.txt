@@ -1,0 +1,20 @@
+C:\Users\Hanan\Desktop\CenterDialog_Src\CodeProject\DialogBox\bin\Debug\DialogBox.dll
+C:\Users\Hanan\Desktop\CenterDialog_Src\CodeProject\DialogBox\bin\Debug\DialogBox.pdb
+C:\Users\Hanan\Desktop\CenterDialog_Src\CodeProject\DialogBox\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Hanan\Desktop\CenterDialog_Src\CodeProject\DialogBox\obj\Debug\DialogBox.dll
+C:\Users\Hanan\Desktop\CenterDialog_Src\CodeProject\DialogBox\obj\Debug\DialogBox.pdb
+C:\Users\Hanan\Desktop\datagridview_01\datagridview\DialogBox\bin\Debug\DialogBox.dll
+C:\Users\Hanan\Desktop\datagridview_01\datagridview\DialogBox\bin\Debug\DialogBox.pdb
+C:\Users\Hanan\Desktop\datagridview_01\datagridview\DialogBox\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Hanan\Desktop\datagridview_01\datagridview\DialogBox\obj\Debug\DialogBox.dll
+C:\Users\Hanan\Desktop\datagridview_01\datagridview\DialogBox\obj\Debug\DialogBox.pdb
+D:\project hadasa\datagridview_for_mano\datagridview\DialogBox\bin\Debug\DialogBox.dll
+D:\project hadasa\datagridview_for_mano\datagridview\DialogBox\bin\Debug\DialogBox.pdb
+D:\project hadasa\datagridview_for_mano\datagridview\DialogBox\obj\Debug\ResolveAssemblyReference.cache
+D:\project hadasa\datagridview_for_mano\datagridview\DialogBox\obj\Debug\DialogBox.dll
+D:\project hadasa\datagridview_for_mano\datagridview\DialogBox\obj\Debug\DialogBox.pdb
+C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\DialogBox\bin\Debug\DialogBox.dll
+C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\DialogBox\bin\Debug\DialogBox.pdb
+C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\DialogBox\obj\Debug\ResolveAssemblyReference.cache
+C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\DialogBox\obj\Debug\DialogBox.dll
+C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\DialogBox\obj\Debug\DialogBox.pdb

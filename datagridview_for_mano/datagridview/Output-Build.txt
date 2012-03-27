@@ -1,0 +1,94 @@
+﻿1>------ Rebuild All started: Project: DialogBox, Configuration: Debug Any CPU ------
+C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\DialogBox\WindowsHook.cs(156,69): warning CS0618: 'System.AppDomain.GetCurrentThreadId()' is obsolete: 'AppDomain.GetCurrentThreadId has been deprecated because it does not provide a stable Id when managed threads are running on fibers (aka lightweight threads). To get a stable identifier for a managed thread, use the ManagedThreadId property on Thread.  http://go.microsoft.com/fwlink/?linkid=14202'
+
+Compile complete -- 0 errors, 1 warnings
+1>Build started 19/03/2012 22:30:04.
+1>CoreClean:
+1>  Deleting file "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\DialogBox\bin\Debug\DialogBox.dll".
+1>  Deleting file "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\DialogBox\bin\Debug\DialogBox.pdb".
+1>  Deleting file "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\DialogBox\obj\Debug\DialogBox.dll".
+1>  Deleting file "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\DialogBox\obj\Debug\DialogBox.pdb".
+1>GenerateTargetFrameworkMonikerAttribute:
+1>Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+1>CoreCompile:
+1>  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /unsafe- /checked- /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /baseaddress:285212672 /define:DEBUG;TRACE /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.XML.dll" /debug+ /debug:full /filealign:4096 /optimize- /out:obj\Debug\DialogBox.dll /target:library /warnaserror- AssemblyInfo.cs CbtHook.cs DialogBox.cs Win32API.cs WindowsHook.cs WndProcRetHook.cs "C:\Users\hananr\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cs"
+1>CopyFilesToOutputDirectory:
+1>  Copying file from "obj\Debug\DialogBox.dll" to "bin\Debug\DialogBox.dll".
+1>  DialogBox -> C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\DialogBox\bin\Debug\DialogBox.dll
+1>  Copying file from "obj\Debug\DialogBox.pdb" to "bin\Debug\DialogBox.pdb".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.14
+2>------ Skipped Rebuild All: Project: cppdll, Configuration: Debug Win32 ------
+2>Project not selected to build for this solution configuration 
+3>------ Rebuild All started: Project: datagridview, Configuration: Debug Any CPU ------
+C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\Main.cs(1201,53): warning CS0642: Possible mistaken empty statement
+C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\loginForm.cs(54,34): warning CS0168: The variable 'Ex' is declared but never used
+C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\insertsupply.cs(25,16): warning CS0414: The field 'datagridview.insertsupply.TOWER_STRING' is assigned but its value is never used
+
+Compile complete -- 0 errors, 3 warnings
+3>Build started 19/03/2012 22:30:04.
+3>CoreClean:
+3>  Deleting file "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\obj\Debug\ResolveAssemblyReference.cache".
+3>  Deleting file "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\obj\Debug\datagridview.AboutBox1.resources".
+3>  Deleting file "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\obj\Debug\datagridview.checktower.resources".
+3>  Deleting file "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\obj\Debug\datagridview.insertsupply.resources".
+3>  Deleting file "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\obj\Debug\datagridview.Form1.resources".
+3>  Deleting file "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\obj\Debug\datagridview.loginForm.resources".
+3>  Deleting file "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\obj\Debug\datagridview.Main.resources".
+3>  Deleting file "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\obj\Debug\datagridview.MyMessageBox.resources".
+3>  Deleting file "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\obj\Debug\datagridview.orderItemsForm.resources".
+3>  Deleting file "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\obj\Debug\datagridview.proceedOrder.resources".
+3>  Deleting file "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\obj\Debug\datagridview.Properties.Resources.resources".
+3>  Deleting file "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\obj\Debug\datagridview.Form1.he-IL.resources".
+3>  Deleting file "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\obj\Debug\GenerateResource.read.1.tlog".
+3>  Deleting file "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\obj\Debug\GenerateResource.write.1.tlog".
+3>  Deleting file "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\obj\Debug\he-IL\datagridview.resources.dll".
+3>  Deleting file "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\obj\Debug\datagridview.exe.manifest".
+3>  Deleting file "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\obj\Debug\datagridview.application".
+3>  Deleting file "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\obj\Debug\datagridview.exe".
+3>  Deleting file "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\obj\Debug\datagridview.pdb".
+3>CoreResGen:
+3>  "C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\Debug\cppdll.dll /r:C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\DialogBox\bin\Debug\DialogBox.dll /r:"C:\Program Files\Microsoft Visual Studio 10.0\Visual Studio Tools for Office\PIA\Office14\Microsoft.Office.Interop.Excel.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Configuration.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.DataSetExtensions.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Deployment.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Runtime.Serialization.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.ServiceModel.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.Extensions.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.Linq.dll" /compile AboutBox1.resx,obj\Debug\datagridview.AboutBox1.resources checktower.resx,obj\Debug\datagridview.checktower.resources insertsupply.resx,obj\Debug\datagridview.insertsupply.resources Form1.resx,obj\Debug\datagridview.Form1.resources loginForm.resx,obj\Debug\datagridview.loginForm.resources Main.resx,obj\Debug\datagridview.Main.resources MyMessageBox.resx,obj\Debug\datagridview.MyMessageBox.resources orderItemsForm.resx,obj\Debug\datagridview.orderItemsForm.resources proceedOrder.resx,obj\Debug\datagridview.proceedOrder.resources Properties\Resources.resx,obj\Debug\datagridview.Properties.Resources.resources Form1.he-IL.resx,obj\Debug\datagridview.Form1.he-IL.resources
+3>  Processing resource file "AboutBox1.resx" into "obj\Debug\datagridview.AboutBox1.resources".
+3>  Processing resource file "checktower.resx" into "obj\Debug\datagridview.checktower.resources".
+3>  Processing resource file "insertsupply.resx" into "obj\Debug\datagridview.insertsupply.resources".
+3>  Processing resource file "Form1.resx" into "obj\Debug\datagridview.Form1.resources".
+3>  Processing resource file "loginForm.resx" into "obj\Debug\datagridview.loginForm.resources".
+3>  Processing resource file "Main.resx" into "obj\Debug\datagridview.Main.resources".
+3>  Processing resource file "MyMessageBox.resx" into "obj\Debug\datagridview.MyMessageBox.resources".
+3>  Processing resource file "orderItemsForm.resx" into "obj\Debug\datagridview.orderItemsForm.resources".
+3>  Processing resource file "proceedOrder.resx" into "obj\Debug\datagridview.proceedOrder.resources".
+3>  Processing resource file "Properties\Resources.resx" into "obj\Debug\datagridview.Properties.Resources.resources".
+3>  Processing resource file "Form1.he-IL.resx" into "obj\Debug\datagridview.Form1.he-IL.resources".
+3>GenerateTargetFrameworkMonikerAttribute:
+3>Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+3>CoreCompile:
+3>  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /unsafe+ /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:DEBUG;TRACE /reference:C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\Debug\cppdll.dll /reference:C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\DialogBox\bin\Debug\DialogBox.dll /link:"C:\Program Files\Microsoft Visual Studio 10.0\Visual Studio Tools for Office\PIA\Office14\Microsoft.Office.Interop.Excel.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Configuration.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.DataSetExtensions.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Deployment.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Runtime.Serialization.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.ServiceModel.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.Extensions.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.Linq.dll" /debug+ /debug:full /filealign:512 /nowin32manifest /optimize- /out:obj\Debug\datagridview.exe /resource:obj\Debug\datagridview.AboutBox1.resources /resource:obj\Debug\datagridview.checktower.resources /resource:obj\Debug\datagridview.insertsupply.resources /resource:obj\Debug\datagridview.Form1.resources /resource:obj\Debug\datagridview.loginForm.resources /resource:obj\Debug\datagridview.Main.resources /resource:obj\Debug\datagridview.MyMessageBox.resources /resource:obj\Debug\datagridview.orderItemsForm.resources /resource:obj\Debug\datagridview.proceedOrder.resources /resource:obj\Debug\datagridview.Properties.Resources.resources /target:winexe /win32icon:roller.ico AboutBox1.cs AboutBox1.Designer.cs checktower.cs checktower.Designer.cs errorvalue.cs insertsupply.cs insertsupply.Designer.cs loggerfile.cs MyMessageBox.cs MyMessageBox.Designer.cs NumericTextBox.cs Example.cs Form1.cs Form1.Designer.cs loginForm.cs loginForm.Designer.cs Main.cs Main.Designer.cs order.cs orderItemsForm.cs orderItemsForm.Designer.cs proceedOrder.cs proceedOrder.Designer.cs Program.cs Properties\AssemblyInfo.cs "Service References\TranstecWS\Reference.cs" Settings.cs Properties\Resources.Designer.cs Properties\Settings.Designer.cs "C:\Users\hananr\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cs"
+3>GenerateSatelliteAssemblies:
+3>  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\AL.exe /culture:he-IL /out:obj\Debug\he-IL\datagridview.resources.dll /template:obj\Debug\datagridview.exe /embed:obj\Debug\datagridview.Form1.he-IL.resources
+3>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(2580,9): warning MSB3187: Referenced assembly 'C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\Debug\cppdll.dll' targets a different processor than the application.
+3>_CopyFilesMarkedCopyLocal:
+3>  Copying file from "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\Debug\cppdll.dll" to "bin\Debug\cppdll.dll".
+3>  Copying file from "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\DialogBox\bin\Debug\DialogBox.dll" to "bin\Debug\DialogBox.dll".
+3>  Copying file from "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\DialogBox\bin\Debug\DialogBox.pdb" to "bin\Debug\DialogBox.pdb".
+3>  Copying file from "C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\Debug\cppdll.pdb" to "bin\Debug\cppdll.pdb".
+3>_CopyAppConfigFile:
+3>  Copying file from "app.config" to "bin\Debug\datagridview.exe.config".
+3>_CopyManifestFiles:
+3>  Copying file from "obj\Debug\datagridview.exe.manifest" to "bin\Debug\datagridview.exe.manifest".
+3>  datagridview -> C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\bin\Debug\datagridview.exe.manifest
+3>  Copying file from "obj\Debug\datagridview.application" to "bin\Debug\datagridview.application".
+3>  datagridview -> C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\bin\Debug\datagridview.application
+3>CopyFilesToOutputDirectory:
+3>  Copying file from "obj\Debug\datagridview.exe" to "bin\Debug\datagridview.exe".
+3>  datagridview -> C:\hanan\datagridview_for_mano\datagridview_for_mano\datagridview\bin\Debug\datagridview.exe
+3>  Copying file from "obj\Debug\datagridview.pdb" to "bin\Debug\datagridview.pdb".
+3>  Creating directory "bin\Debug\he-IL".
+3>  Copying file from "obj\Debug\he-IL\datagridview.resources.dll" to "bin\Debug\he-IL\datagridview.resources.dll".
+3>
+3>Build succeeded.
+3>
+3>Time Elapsed 00:00:00.90
+========== Rebuild All: 2 succeeded, 0 failed, 1 skipped ==========
